@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import drmaya from '../assets/dr-maya-reynolds.jpg';
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -48,7 +49,7 @@ const About = () => {
 
               <div className="arch-image shadow-2xl">
                 <img
-                  src="/assets/dr-maya-reynolds.jpg"
+                  src={drmaya}
                   alt="Dr. Maya Reynolds, PsyD"
                   className="w-full h-[500px] md:h-[600px] object-cover"
                 />
