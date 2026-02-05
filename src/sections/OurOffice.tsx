@@ -1,17 +1,20 @@
 import { useEffect, useRef, useState } from 'react';
 import { MapPin, Shield, Heart, Video, Users } from 'lucide-react';
+import office1 from '../assets/office-image.jpg';
+import office2 from '../assets/office-waiting.jpg';
+import office3 from '../assets/office-detail.jpg';
 
 const officeImages = [
   {
-    src: '/assets/office-image.jpg',
+    src: office1,
     alt: 'Main therapy room with comfortable seating',
   },
   {
-    src: '/assets/office-waiting.jpg',
+    src: office2,
     alt: 'Peaceful waiting area',
   },
   {
-    src: '/assets/office-detail.jpg',
+    src: office3,
     alt: 'Cozy corner with warm details',
   },
 ];

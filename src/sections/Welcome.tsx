@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import office from '../assets/office-image.jpg';
 
 const Welcome = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -44,7 +45,7 @@ const Welcome = () => {
 
               <div className="rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="/assets/office-image.jpg"
+                  src={office}
                   alt="Dr. Reynolds' therapy office"
                   className="w-full h-[400px] md:h-[500px] object-cover"
                 />

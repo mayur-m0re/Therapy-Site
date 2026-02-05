@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import heroImage from '../assets/hero-image.jpg';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ const Hero = () => {
               {/* Main Image */}
               <div className="arch-image shadow-2xl">
                 <img
-                  src="/assets/hero-image.jpg"
+                  src={heroImage}
                   alt="Peaceful therapy environment"
                   className="w-full h-[500px] md:h-[600px] object-cover"
                 />

@@ -1,23 +1,26 @@
 import { useEffect, useRef } from 'react';
+import speciality1 from '../assets/specialty-self-esteem.jpg';
+import speciality2 from '../assets/specialty-relationships.jpg';
+import speciality3 from '../assets/specialty-burnout.jpg';
 
 const specialties = [
   {
     title: 'Self-Esteem',
     description:
       'Building a strong sense of self-worth is key to living a fulfilled life. Let\'s work together to bolster your confidence and develop a healthier relationship with yourself.',
-    image: '/assets/specialty-self-esteem.jpg',
+    image: speciality1,
   },
   {
     title: 'Relationships',
     description:
       'Navigating relationships can be complex. I\'m here to guide you through these complexities to help you form healthier, more meaningful connections.',
-    image: '/assets/specialty-relationships.jpg',
+    image: speciality2,
   },
   {
     title: 'Burnout & Stress',
     description:
       'Feeling overwhelmed by your career or daily life is more common than you think. Together, we\'ll identify strategies to manage stress and prevent burnout.',
-    image: '/assets/specialty-burnout.jpg',
+    image: speciality3,
   },
 ];
 
