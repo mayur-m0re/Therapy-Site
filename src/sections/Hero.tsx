@@ -84,11 +84,11 @@ const Hero = () => {
               {/* Decorative Frame */}
               <div className="absolute -top-4 -right-4 w-full h-full border-2 border-[hsl(var(--terracotta))] rounded-[200px_200px_20px_20px] -z-10" />
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-[hsl(var(--sage))]/10 rounded-full -z-10" />
-              
+
               {/* Main Image */}
               <div className="arch-image shadow-2xl">
                 <img
-                  src="/hero-image.jpg"
+                  src="/assets/hero-image.jpg"
                   alt="Peaceful therapy environment"
                   className="w-full h-[500px] md:h-[600px] object-cover"
                 />

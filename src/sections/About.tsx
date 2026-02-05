@@ -45,10 +45,10 @@ const About = () => {
               {/* Decorative Frame */}
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-white/20 rounded-[200px_200px_20px_20px] -z-10" />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[hsl(var(--terracotta))]/20 rounded-full -z-10" />
-              
+
               <div className="arch-image shadow-2xl">
                 <img
-                  src="/dr-maya-reynolds.jpg"
+                  src="/assets/dr-maya-reynolds.jpg"
                   alt="Dr. Maya Reynolds, PsyD"
                   className="w-full h-[500px] md:h-[600px] object-cover"
                 />

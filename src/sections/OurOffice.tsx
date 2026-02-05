@@ -3,15 +3,15 @@ import { MapPin, Shield, Heart, Video, Users } from 'lucide-react';
 
 const officeImages = [
   {
-    src: '/office-image.jpg',
+    src: '/assets/office-image.jpg',
     alt: 'Main therapy room with comfortable seating',
   },
   {
-    src: '/office-waiting.jpg',
+    src: '/assets/office-waiting.jpg',
     alt: 'Peaceful waiting area',
   },
   {
-    src: '/office-detail.jpg',
+    src: '/assets/office-detail.jpg',
     alt: 'Cozy corner with warm details',
   },
 ];
@@ -99,7 +99,7 @@ const OurOffice = () => {
             Our Office
           </h2>
           <p className="text-lg md:text-xl text-[hsl(var(--charcoal-light))] max-w-2xl mx-auto leading-relaxed">
-            A calm, confidential sanctuary in the heart of Santa Monica where you can 
+            A calm, confidential sanctuary in the heart of Santa Monica where you can
             feel safe to explore, heal, and grow.
           </p>
         </div>
@@ -115,7 +115,7 @@ const OurOffice = () => {
               {/* Decorative Frame */}
               <div className="absolute -top-4 -right-4 w-full h-full border-2 border-[hsl(var(--terracotta))]/30 rounded-3xl -z-10" />
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-[hsl(var(--sage))]/10 rounded-full -z-10" />
-              
+
               {/* Main Image Display */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
                 {officeImages.map((image, index) => (
@@ -123,12 +123,11 @@ const OurOffice = () => {
                     key={index}
                     src={image.src}
                     alt={image.alt}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
-                      index === activeImage ? 'opacity-100' : 'opacity-0'
-                    }`}
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${index === activeImage ? 'opacity-100' : 'opacity-0'
+                      }`}
                   />
                 ))}
-                
+
                 {/* Image Caption */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
                   <p className="text-white text-sm font-medium">
@@ -143,11 +142,10 @@ const OurOffice = () => {
                   <button
                     key={index}
                     onClick={() => setActiveImage(index)}
-                    className={`relative w-20 h-20 rounded-xl overflow-hidden transition-all duration-300 ${
-                      index === activeImage
-                        ? 'ring-2 ring-[hsl(var(--sage))] ring-offset-2 scale-105'
-                        : 'opacity-60 hover:opacity-100'
-                    }`}
+                    className={`relative w-20 h-20 rounded-xl overflow-hidden transition-all duration-300 ${index === activeImage
+                      ? 'ring-2 ring-[hsl(var(--sage))] ring-offset-2 scale-105'
+                      : 'opacity-60 hover:opacity-100'
+                      }`}
                   >
                     <img
                       src={image.src}
@@ -179,18 +177,18 @@ const OurOffice = () => {
                 <span className="font-medium text-[hsl(var(--charcoal))]">
                   123th Street 45 W
                 </span>
-                , my office is designed to be a refuge from the outside world—a place 
+                , my office is designed to be a refuge from the outside world—a place
                 where you can exhale and simply be.
               </p>
               <p>
-                From the moment you step through the door, you'll notice the difference. 
-                Soft natural light fills the space. Comfortable seating invites you to relax. 
-                Plants and natural elements bring a sense of calm. Every detail has been 
+                From the moment you step through the door, you'll notice the difference.
+                Soft natural light fills the space. Comfortable seating invites you to relax.
+                Plants and natural elements bring a sense of calm. Every detail has been
                 thoughtfully chosen to create an atmosphere of warmth, safety, and tranquility.
               </p>
               <p>
-                Whether you prefer in-person sessions or the flexibility of teletherapy, 
-                the environment remains consistent: a judgment-free space where your 
+                Whether you prefer in-person sessions or the flexibility of teletherapy,
+                the environment remains consistent: a judgment-free space where your
                 well-being is the only priority.
               </p>
             </div>

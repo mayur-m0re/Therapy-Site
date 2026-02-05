@@ -41,10 +41,10 @@ const Welcome = () => {
               {/* Decorative Elements */}
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-[hsl(var(--terracotta))]/20 rounded-full -z-10" />
               <div className="absolute -bottom-8 -right-8 w-40 h-40 border-2 border-[hsl(var(--sage))]/20 rounded-full -z-10" />
-              
+
               <div className="rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="/office-image.jpg"
+                  src="/assets/office-image.jpg"
                   alt="Dr. Reynolds' therapy office"
                   className="w-full h-[400px] md:h-[500px] object-cover"
                 />
