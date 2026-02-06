@@ -26,7 +26,7 @@ const CTA = () => {
     <section
       id="contact"
       ref={sectionRef}
-      className="section-padding relative overflow-hidden bg-green-900"
+      className="section-padding relative overflow-hidden bg-[#325850]"
     >
       {/* Decorative Background Effects */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white/5 rounded-full blur-3xl -z-0" />
